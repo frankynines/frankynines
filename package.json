@@ -1,0 +1,27 @@
+{
+  "name": "frankynines",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "sync:nfts": "node scripts/sync-nfts.mjs",
+    "import:deck": "node scripts/import-deck.mjs"
+  },
+  "dependencies": {
+    "next": "15.3.3",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "sharp": "^0.34.2"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.8",
+    "@types/node": "^22",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "tailwindcss": "^4.1.8",
+    "typescript": "^5"
+  }
+}
