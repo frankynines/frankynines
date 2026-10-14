@@ -172,7 +172,7 @@ async function superrare(col) {
     const contract = a.contractAddress.toLowerCase();
     const series = SR_SERIES[contract] ?? { slug: "sr-" + contract.slice(2, 8), label: "SuperRare" };
     const md = a.metadata ?? {};
-    const image = md.mediaDetails?.imageUri ?? null;
+    const image = ipfs(md.mediaDetails?.imageUri) ?? null;
     const listing = a.state?.listings?.[0] ?? null;
     const auction = a.state?.auctions?.[0] ?? null;
     return {
@@ -345,7 +345,10 @@ async function localThumbnails(items) {
         }
         // Cached as a still but the source is a GIF: rebuild it animated.
       }
-      const candidates = [it.image, it.remoteThumb].filter(Boolean);
+      const candidates = [it.image, it.remoteThumb].filter(Boolean).flatMap((u) => {
+        const m = u.match(/^https?:\/\/[^/]+\/ipfs\/(.+)$/);
+        return m ? [u, `https://cloudflare-ipfs.com/ipfs/${m[1]}`, `https://gateway.pinata.cloud/ipfs/${m[1]}`, `https://dweb.link/ipfs/${m[1]}`] : [u];
+      });
       let ok = false;
       for (const url of candidates) {
         try {
@@ -375,6 +378,8 @@ async function localThumbnails(items) {
               .webp({ quality: 82 })
               .toFile(file);
           }
+          const { size } = await import("node:fs").then((fs) => fs.statSync(file));
+          if (size < 1500) throw new Error("suspiciously small output");
           it.thumb = `/nft/${name}`;
           ok = true; made++;
           break;

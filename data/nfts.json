@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-12T17:51:09.852Z",
+  "updatedAt": "2026-10-14T03:34:42.816Z",
   "wallet": "0x2eb9b439ffb7dc587198e1534e465a6242192b24",
   "items": [
     {
@@ -112,8 +112,8 @@
       "collection": "Bra1nR0t",
       "slug": "sr-bra1nr0t",
       "section": "superrare",
-      "image": "ipfs://QmT9rxLUoDPr4tDN9M3s855aMT22kmr5YJUKzmF5ZkwnNh",
-      "thumb": null,
+      "image": "https://ipfs.io/ipfs/QmT9rxLUoDPr4tDN9M3s855aMT22kmr5YJUKzmF5ZkwnNh",
+      "thumb": "/nft/72606f3f118a5e1f.webp",
       "mime": "image/png",
       "animation": null,
       "type": "ERC721",
@@ -560,7 +560,7 @@
       "type": "ERC721",
       "mintedAt": "2022-11-27T21:30:35.000Z",
       "href": "https://superrare.com/artwork/eth/0xb932a70a57673d89f4acffbe830e8ed7f75fb9e0/40693",
-      "forSale": true,
+      "forSale": false,
       "animated": true
     },
     {
@@ -2106,6 +2106,26 @@
       "href": "https://opensea.io/item/ethereum/0xfbeef911dc5821886e1dda71586d90ed28174b7d/198053",
       "editionCount": 1,
       "animated": false
+    },
+    {
+      "id": "0xfbeef911dc5821886e1dda71586d90ed28174b7d:198352",
+      "contract": "0xfbeef911dc5821886e1dda71586d90ed28174b7d",
+      "tokenId": "198352",
+      "chain": "eth",
+      "name": "Nara Ford",
+      "description": "Model: Nara Ford\nDigital\nFrankynines\nLas Vegas, 2020",
+      "collection": "KnownOrigin",
+      "slug": "known-origin",
+      "section": "opensea",
+      "image": "https://nft2-cdn.alchemy.com/eth-mainnet/ca092e5df2cd7d36847690124bbb9df2",
+      "thumb": "/nft/ea307b0d2359d236.webp",
+      "remoteThumb": "https://res.cloudinary.com/alchemyapi/image/upload/thumbnailv2/eth-mainnet/ca092e5df2cd7d36847690124bbb9df2",
+      "mime": null,
+      "animation": null,
+      "type": "ERC721",
+      "mintedAt": null,
+      "href": "https://opensea.io/item/ethereum/0xfbeef911dc5821886e1dda71586d90ed28174b7d/198352",
+      "editionCount": 1
     },
     {
       "id": "0xfbeef911dc5821886e1dda71586d90ed28174b7d:204701",
