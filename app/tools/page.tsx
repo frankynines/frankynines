@@ -19,20 +19,29 @@ export default function ToolsPage() {
 
   return (
     <>
-      <section className="wrap pt-12 pb-8 grid gap-8 md:grid-cols-[1.2fr_1fr] md:items-end">
+      <section className="wrap pt-10">
+        <Figure
+          src="/work/tools/banner.jpg"
+          alt="Procreate Brush Packs by FrankyNines"
+          aspect="aspect-[4/1]"
+          className="tilt-l"
+          tape
+        />
+      </section>
+
+      <section className="wrap pt-12 pb-8">
         <div>
           <span className="slap slap--pink tilt-l2">Art supplies</span>
           <h1 className="display text-[clamp(3rem,10vw,8rem)] mt-4">Tools</h1>
           <p className="mt-4 max-w-xl text-lg leading-snug">
-            Custom Procreate brushes. The same ones behind the ducks, the pixel abstracts and the neon work.
-            Not art. Supplies. Buy a pack, download the brushes, go make something.
+            Four custom Procreate brush packs. The same brushes behind the ducks, the pixel abstracts and the
+            neon work. Not art. Supplies. Buy a pack, download the brushes, go make something.
           </p>
           <div className="mt-6 flex flex-wrap gap-3">
             <a href="https://opensea.io/collection/brushpacks" className="btn btn--volt">Get a pack on OpenSea</a>
             <a href={site.socials.tiktok} className="btn btn--ghost">See them in use</a>
           </div>
         </div>
-        <Figure src="/work/tools/hero.jpg" alt="Brush strokes from the FrankyNines Procreate packs" aspect="aspect-square" className="tilt-r" tape />
       </section>
 
       <section className="wrap py-10">
