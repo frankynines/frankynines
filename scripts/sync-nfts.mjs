@@ -221,7 +221,9 @@ async function storefront(col) {
       if (when && (!dates.has(id) || when < dates.get(id))) dates.set(id, when);
     }
   }
-  const out = await metadataBatch(col, [...ids]);
+  // Pinned ids are the source of truth; transfers only supply dates.
+  const wanted = pinned.length ? pinned : [...ids];
+  const out = await metadataBatch(col, wanted);
   for (const it of out) it.mintedAt = it.mintedAt ?? dates.get(it.tokenId) ?? null;
   return out;
 }
