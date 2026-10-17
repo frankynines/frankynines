@@ -12,12 +12,12 @@ export const metadata: Metadata = {
 
 const timeline: [string, string][] = [
   ["2010", "Graduated from the Art Institute of California, San Francisco. Art direction and product design."],
-  ["2012", "Production illustration and design at a big gaming company. Then started founding my own apps."],
+  ["2012", "Production art at Zynga. Dropped CatWang, quit, started 99centbrains."],
   ["2013", "First solo art show, San Francisco."],
-  ["2014", "Founded Yoshirt. Moved to LA, got my first studio."],
-  ["2016", "Sold my app portfolio to Neon Roots. Designed QUOTR for Tony Robbins. Pop art prints for CanvasCultures."],
-  ["2017", "Moved to London. Started minting digital art. Yoshirt was acquired."],
-  ["2018", "Moved to Vegas. Opened a gallery on 9th Street. Neon acrylics."],
+  ["2014", "Moved to LA, founded YOSHIRT, got my first studio."],
+  ["2016", "QUOTR for Tony Robbins with Neon Roots. Pop art prints for CanvasCultures."],
+  ["2017", "Sold 99centbrains to Neon Roots. Moved to London, Pillar Wallet. Started minting."],
+  ["2018", "Moved to Vegas. Joined DapperLabs remote. Opened a gallery on 9th Street, neon acrylics."],
   ["2020", "Murals in Vegas. TikTok. A private studio in Puerto Vallarta."],
   ["2021", "Launched SupDucks. 10,010 sold out."],
   ["2022", "Built SupDucks HQ, an animation studio in the Arts District. Mural at NEARCON Lisbon."],
@@ -37,35 +37,32 @@ export default function AboutPage() {
           </p>
           <div className="mt-6 space-y-4 leading-relaxed max-w-prose">
             <p>
-              After earning my bachelor&apos;s degree in Web Design and Interactive Media from The Art Institute of
-              CA-San Francisco in 2010, I launched my career at Zynga, a leader in the gaming industry. My time at
-              Zynga was instrumental in honing my skills in game design and development, laying the groundwork for
-              my entrepreneurial journey.
+              Art Institute SF, 2010. Web design degree. Went straight to Zynga drawing production art for games and
+              taught myself to code on the side. In 2012 I put out CatWang from a Starbucks on a cracked MacBook.
+              130k downloads the first month. I quit Zynga a few months later and started 99centbrains.
             </p>
             <p>
-              In pursuit of my passion for innovation, I founded 99centbrains, an iOS app development company, where
-              I developed several successful apps, achieving millions of downloads. My entrepreneurial spirit then
-              led me to Los Angeles, where in 2014, I took the helm of a VC-backed company in the apparel and
-              fashion industry (YOSHIRT). This role was pivotal in teaching me how to scale operations and lead
-              cross-functional teams in both engineering and design.
+              Close to 40 sticker apps came out of that shop. Snoopify with Snoop Dogg. Lazergram for Major Lazer.
+              Family Guy Photobomb for FOX. Apps with Sam Flores, Alex Pardee and David Choe. Ten million downloads,
+              a hundred million photos. Sold it to Neon Roots in January 2017.
             </p>
             <p>
-              By 2017, I turned my focus to the burgeoning blockchain industry, leveraging my expertise in product
-              design and direction. I collaborated with pioneering companies such as DapperLabs, NFT42, and others,
-              playing a key role in the development of innovative blockchain projects. My artistic side found
-              expression through collaborations with brands like Coinbase, Monster Energy, and more, where I merged
-              art with cutting-edge technology.
+              In 2014 I moved to LA and founded YOSHIRT. Design a shirt on your phone, we print and sew it in the US.
+              NEFF was the first brand on it. Kleiner Perkins led the seed. Apple put us on stage at WWDC for Apple
+              Pay. I ran it through 2017.
             </p>
             <p>
-              During the pandemic, I channeled my creative energy into content creation on TikTok, where I produced
-              art videos and tutorials aimed at educating and inspiring a global audience. This endeavor allowed me
-              to connect with a new community and share my passion for art in an accessible, engaging format.
+              That same year I moved to London to work on Pillar Wallet and started minting art on chain before most
+              people had a wallet. 2018 I joined DapperLabs. Product and brand for NBA Top Shot, NFT42, Disney, Snoop.
+              Art for Coinbase and Monster Energy.
             </p>
             <p>
-              This journey culminated in the creation of MegaVolt Corp., the incubator of SupDucks, one of the
-              coolest and most vibrant NFT communities on the internet. Through MegaVolt Corp., I continue to push
-              the boundaries of technology, art, and community-building, always striving to create impactful and
-              innovative experiences.
+              When the pandemic hit I went live on TikTok painting small watercolors every day. That&apos;s where a lot
+              of you found me.
+            </p>
+            <p>
+              Then MegaVolt Corp. and SupDucks. 10,010 ducks, sold out, an animation studio in DTLA, a cartoon pilot.
+              Still the main thing.
             </p>
             <p>Based in Vegas. Next stop, Mexico.</p>
           </div>

@@ -1,24 +1,25 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Figure from "@/components/Figure";
-import { designProjects } from "@/content/design";
+import { getProjects } from "@/lib/projects";
 import { site } from "@/content/site";
 
 export const metadata: Metadata = {
   title: "Product design portfolio",
   description:
-    "Product and brand design by FrankyNines: Yoshirt (acquired), Cash Money Records, CybrFM, QUOTR for Tony Robbins, blockchain products and SupDucks.",
+    "Product and brand design by FrankyNines: Yoshirt, Cash Money Records, CybrFM, QUOTR for Tony Robbins, blockchain products and SupDucks.",
   alternates: { canonical: `${site.url}/design` },
 };
 
 export default function DesignPage() {
+  const designProjects = getProjects("design");
   return (
     <>
       <section className="wrap pt-12 pb-8">
         <h1 className="display text-[clamp(3rem,10vw,8rem)]">Design</h1>
         <p className="mt-4 max-w-xl text-lg leading-snug">
           Fifteen years of product. I founded most of these, designed all of them, coded a lot of them,
-          and shipped every one to real people.
+          and shipped every one of them.
         </p>
         <div className="mt-6 flex flex-wrap gap-3">
           <span className="slap">Product design</span>
@@ -35,7 +36,7 @@ export default function DesignPage() {
             <div className="md:pt-2">
               <span className="stamp">{p.year}</span>
             </div>
-            <article className="grid gap-6 lg:grid-cols-[1fr_1.4fr]">
+            <article className="grid gap-6 lg:grid-cols-[1fr_1.4fr] items-start">
               <div>
                 <h2 className="display text-3xl md:text-5xl">{p.title}</h2>
                 <p className="mt-2 text-sm opacity-70">{p.role}</p>
@@ -45,9 +46,9 @@ export default function DesignPage() {
                   ))}
                 </div>
                 {p.stats && (
-                  <ul className="mt-6 grid grid-cols-2 sm:grid-cols-3 gap-3">
+                  <ul className="mt-6 flex flex-wrap gap-3">
                     {p.stats.map((s) => (
-                      <li key={s.label} className="poster p-3">
+                      <li key={s.label} className="poster p-3 min-w-[8rem] flex-1">
                         <span className="display text-xl block">{s.value}</span>
                         <span className="text-xs opacity-70">{s.label}</span>
                       </li>
@@ -62,14 +63,16 @@ export default function DesignPage() {
                   </div>
                 )}
               </div>
-              <div className={`grid gap-6 ${p.images.length > 2 ? "sm:grid-cols-2" : ""}`}>
+              <div className={`grid gap-6 content-start auto-rows-min ${p.images.length > 2 ? "sm:grid-cols-2" : ""}`}>
                 {p.images.map((src, k) => (
                   <Figure
                     key={src}
                     src={src}
                     alt={`${p.title}, slide ${k + 1}`}
                     aspect="aspect-video"
-                    className={k % 2 === (i % 2) ? "tilt-l" : "tilt-r"}
+                    className={`${k % 2 === (i % 2) ? "tilt-l" : "tilt-r"} ${
+                      p.images.length > 2 && p.images.length % 2 === 1 && k === p.images.length - 1 ? "sm:col-span-2" : ""
+                    }`}
                     tape={k === 0}
                   />
                 ))}

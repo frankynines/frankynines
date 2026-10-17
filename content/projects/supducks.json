@@ -1,0 +1,43 @@
+{
+  "section": "design",
+  "year": "2021",
+  "title": "SupDucks",
+  "role": "Founder, art, brand, product",
+  "body": [
+    "Dropped SupDucks. 10,010 PFPs, hand-drawn traits, generative assembly, my own contract. Sold out. Built an animation studio in the Arts District and shipped a cartoon pilot. Still the main project."
+  ],
+  "stats": [
+    {
+      "value": "10,010",
+      "label": "NFTs sold out at $1.8M"
+    },
+    {
+      "value": "23,000Ξ",
+      "label": "volume traded"
+    },
+    {
+      "value": "3,500",
+      "label": "unique owners"
+    },
+    {
+      "value": "20,000",
+      "label": "community members"
+    },
+    {
+      "value": "75Ξ",
+      "label": "highest sale"
+    }
+  ],
+  "links": [
+    {
+      "label": "Full SupDucks story",
+      "href": "/supducks"
+    }
+  ],
+  "images": [
+    "/work/supducks/launch.jpg",
+    "/work/supducks/pfp-1.jpg",
+    "/work/supducks/pilot-1.jpg",
+    "/work/supducks/hq-1.jpg"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "section": "design",
+  "year": "2012",
+  "title": "Zynga, then 99centbrains",
+  "role": "UI and production art at Zynga. Then founder, artist and developer",
+  "body": [
+    "I was drawing production art at Zynga and teaching myself to code on the side. Spring 2012 I put out CatWang from a Starbucks in Walnut Creek on a cracked MacBook and a $100 Wacom. Fire breathing cats, laser eyes, rainbows, slapped onto your selfies. 130k downloads the first month. 99 cents a sticker. A few months later I quit.",
+    "That turned into 99centbrains, a sticker app shop. Snoopify with Snoop Dogg and Upper Playground, where I sold a $99.99 Golden Jay and about a thousand people bought it. Lazergram for Major Lazer and MAD DECENT. Family Guy Photobomb for FOX. StickUP for Upper Playground. Apps with Sam Flores, Alex Pardee, David Choe and Kristin Farr. Work for Dim Mak, iam8bit and Zero Friends. Close to 40 apps.",
+    "Sold 99centbrains to Neon Roots in January 2017 and took over creative for their product and gaming division."
+  ],
+  "images": [
+    "/work/design/zynga-1.jpg",
+    "/work/design/zynga-2.jpg",
+    "/work/design/apps-2012.jpg"
+  ],
+  "stats": [
+    {
+      "value": "10M+",
+      "label": "downloads"
+    },
+    {
+      "value": "$1.5M",
+      "label": "in-app sticker sales"
+    },
+    {
+      "value": "100M",
+      "label": "photos made with em"
+    },
+    {
+      "value": "~40",
+      "label": "apps shipped"
+    }
+  ]
+}

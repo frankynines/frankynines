@@ -1,0 +1,29 @@
+# Pulls new mints every Monday (and on demand from the Actions tab),
+# commits data/nfts.json + thumbnails, which triggers a Vercel deploy.
+# Needs repo secret ALCHEMY_API_KEY (Settings → Secrets → Actions).
+name: Sync NFTs
+on:
+  schedule:
+    - cron: "17 14 * * 1"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: npm }
+      - run: npm ci
+      - run: node scripts/sync-nfts.mjs
+        env:
+          ALCHEMY_API_KEY: ${{ secrets.ALCHEMY_API_KEY }}
+      - name: Commit if anything changed
+        run: |
+          git config user.name "nft-sync"
+          git config user.email "actions@users.noreply.github.com"
+          git add data public/nft
+          git diff --cached --quiet && echo "no new mints" && exit 0
+          git commit -m "sync: new mints $(date -u +%F)"
+          git push

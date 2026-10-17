@@ -30,7 +30,7 @@ export default function SupDucksPage() {
               Sup<span className="text-volt">Ducks</span>
             </h1>
             <p className="mt-5 max-w-md text-lg text-poster/85 leading-snug">
-              I drew ten thousand ducks. They sold out. Then I built a studio to make em move. Still building.
+              I drew ten thousand ducks. They sold out. Then I built a studio to make em move.
             </p>
             <div className="mt-8 flex flex-wrap gap-4">
               <a href={site.markets.supducks} className="btn btn--volt">supducks.com</a>
@@ -60,7 +60,7 @@ export default function SupDucksPage() {
           <h2 className="display text-3xl md:text-5xl">The PFP collection</h2>
           <p className="mt-4 max-w-prose leading-relaxed">
             10,010 ducks. Every trait hand-drawn by me, assembled by code I wrote. Launched 2021, sold out, and turned
-            into a 20,000 person community that still shows up every day.
+            into a 20,000 person community that's still here.
           </p>
           <div className="mt-8 grid gap-6 sm:grid-cols-2">
             <Figure src="/work/supducks/launch.jpg" alt="SupDucks launch, 2021" aspect="aspect-video" className="tilt-l" tape />
@@ -76,7 +76,7 @@ export default function SupDucksPage() {
         <div>
           <h2 className="display text-3xl md:text-5xl">SupDucks HQ, Arts District DTLA</h2>
           <p className="mt-4 max-w-prose leading-relaxed">
-            Built an animation studio in Downtown LA under MegaVolt and produced the SupDucks cartoon pilot. Storyboards, rigs, voices, the whole pipeline in house.
+            Built an animation studio in Downtown LA under MegaVolt and produced the SupDucks cartoon pilot. Storyboards, rigs, voices, all done in house.
           </p>
           <div className="mt-8 grid gap-6 sm:grid-cols-2">
             <Figure src="/work/supducks/hq-1.jpg" alt="SupDucks HQ in the Arts District" aspect="aspect-video" className="tilt-r" tape />
@@ -92,7 +92,7 @@ export default function SupDucksPage() {
         <div>
           <h2 className="display text-3xl md:text-5xl">What I&apos;m building now</h2>
           <p className="mt-4 max-w-prose leading-relaxed">
-            New site. A mobile iOS app. New socials. A merch line. This is the active project. We stay fly.
+            New site, iOS app, new socials, a merch line. This is where my time goes right now.
           </p>
           <div className="mt-8 grid gap-6 sm:grid-cols-2">
             <Figure src="/work/supducks/web-1.jpg" alt="SupDucks website refresh" aspect="aspect-video" className="tilt-l" />

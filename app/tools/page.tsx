@@ -35,7 +35,7 @@ export default function ToolsPage() {
           <h1 className="display text-[clamp(3rem,10vw,8rem)] mt-4">Tools</h1>
           <p className="mt-4 max-w-xl text-lg leading-snug">
             Four custom Procreate brush packs. The same brushes behind the ducks, the pixel abstracts and the
-            neon work. Not art. Supplies. Buy a pack, download the brushes, go make something.
+            neon work. These are supplies, not art. Buy a pack, download the brushes, make stuff.
           </p>
           <div className="mt-6 flex flex-wrap gap-3">
             <a href="https://opensea.io/collection/brushpacks" className="btn btn--volt">Get a pack on OpenSea</a>

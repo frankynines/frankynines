@@ -20,8 +20,8 @@ export default function CollectPage() {
       <section className="wrap pt-12 pb-6">
         <h1 className="display text-[clamp(3rem,10vw,8rem)]">Collect</h1>
         <p className="mt-4 max-w-xl text-lg leading-snug">
-          Everything I minted, sorted newest first. Flip between SuperRare and OpenSea. Each piece links to
-          where it lives. No middleman. No gallery cut.
+          Everything I minted, newest first. Flip between SuperRare and OpenSea. Each piece links to where
+          it lives.
         </p>
         <p className="mt-6 text-xs opacity-60 font-mono break-all">
           {site.ens} · {site.wallet}
@@ -47,7 +47,7 @@ export default function CollectPage() {
         <div className="poster poster--dark p-8 md:p-10 tilt-r max-w-3xl">
           <p className="display text-2xl text-volt">Physical pieces</p>
           <p className="mt-2 text-poster/80">
-            Originals and giclée prints go direct, no gallery. Email what you&apos;re after and I&apos;ll send what&apos;s in the studio.
+            Originals and giclée prints come straight from me. Email me what you&apos;re after and I&apos;ll tell you what&apos;s in the studio.
           </p>
           <a href={`mailto:${site.email}?subject=Originals`} className="btn btn--volt mt-5">Ask about originals</a>
         </div>

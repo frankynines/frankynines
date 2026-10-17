@@ -10,7 +10,7 @@ export default function Footer() {
             Sup<span className="text-pink">.</span>
           </p>
           <p className="mt-4 max-w-sm text-poster/80">
-            Collectors, collabs, questions about a piece. Email hits fastest.
+            Collectors, collabs, questions about a piece. Email is the fastest way to reach me.
           </p>
           <a href={`mailto:${site.email}`} className="btn btn--volt mt-6">
             {site.email}

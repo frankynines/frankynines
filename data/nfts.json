@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T10:54:11.881Z",
+  "updatedAt": "2026-10-17T05:30:16.621Z",
   "wallet": "0x2eb9b439ffb7dc587198e1534e465a6242192b24",
   "items": [
     {
@@ -2393,7 +2393,8 @@
       "animation": null,
       "type": "ERC1155",
       "mintedAt": null,
-      "href": "https://opensea.io/item/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/21134501619803907585733640384516900905529416450751157585870948154294057041970"
+      "href": "https://opensea.io/item/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/21134501619803907585733640384516900905529416450751157585870948154294057041970",
+      "animated": false
     }
   ]
 }

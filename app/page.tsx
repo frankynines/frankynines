@@ -19,8 +19,8 @@ export default function Home() {
             <span className="text-pink">Nines</span>
           </h1>
           <p className="mt-6 max-w-md text-lg leading-snug">
-            Technical Artist &amp; Developer&hellip; CEO of my own universe. I draw it, design it, code it, ship it.
-            Murals on real walls. Art you can own on chain.
+            Technical Artist &amp; Developer&hellip; CEO of my own universe. I draw it, design it and code it.
+            Murals, canvases, and art you can collect on chain.
           </p>
           <div className="mt-8 flex flex-wrap gap-4">
             <Link href="/design" className="btn">Design work</Link>
@@ -43,7 +43,7 @@ export default function Home() {
           href="/design"
           kicker="2010 to now"
           title="Design"
-          body="Fifteen years of product. Founded Yoshirt, got it acquired. Cash Money, Disney, NBA Top Shot, Snoop. Then built SupDucks from scratch."
+          body="Fifteen years of product. CatWang and Snoopify. Founded Yoshirt. Cash Money, Disney, NBA Top Shot. Then SupDucks."
           tilt="tilt-l"
         />
         <Door
@@ -57,7 +57,7 @@ export default function Home() {
           href="/supducks"
           kicker="2021 to now"
           title="SupDucks"
-          body="10,010 ducks. Sold out. An animation studio in DTLA, a cartoon pilot, and a 2026 roadmap I'm building right now."
+          body="10,010 ducks, sold out. An animation studio in DTLA, a cartoon pilot, and a 2026 roadmap I'm on right now."
           tilt="tilt-r"
           dark
         />
@@ -72,7 +72,7 @@ export default function Home() {
                 Latest <span className="text-volt">drops</span>
               </h2>
               <p className="mt-3 max-w-md text-poster/80">
-                The eight newest pieces, straight off chain. SuperRare one of ones, KnownOrigin editions, my own contracts.
+                The eight newest pieces. SuperRare one of ones, KnownOrigin editions, my own contracts.
               </p>
             </div>
             <Link href="/collect" className="btn btn--volt">Everything on chain</Link>
@@ -93,9 +93,9 @@ export default function Home() {
         <div className="poster p-8 tilt-l">
           <p className="display text-2xl">About</p>
           <p className="mt-4 leading-relaxed">
-            Art Institute SF. Zynga. Founded 99centbrains, millions of downloads. Ran YOSHIRT. Blockchain since
-            2017 with DapperLabs and NFT42, art for Coinbase and Monster Energy. Then MegaVolt Corp. and SupDucks,
-            still building it. Based in Vegas, Mexico on the horizon.
+            Art Institute SF. Zynga. Started 99centbrains and shipped 40 sticker apps, 10 million downloads. Founded
+            YOSHIRT. On chain since 2017 with DapperLabs and NFT42, art for Coinbase and Monster Energy. Then MegaVolt
+            Corp. and SupDucks. Based in Vegas, Mexico next.
           </p>
           <Link href="/about" className="btn mt-6">The whole route</Link>
         </div>

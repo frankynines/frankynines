@@ -17,7 +17,7 @@ export default function ArtPage() {
       <section className="wrap pt-12 pb-8">
         <h1 className="display text-[clamp(3rem,10vw,8rem)]">Art</h1>
         <p className="mt-4 max-w-xl text-lg leading-snug">
-          Canvas, walls, paper, chain. Every city I lived in handed me a new medium.
+          Paintings, murals, paper and digital. 2013 to now, by city.
         </p>
         <div className="mt-6 flex flex-wrap gap-3">
           <Link href="/collect" className="btn btn--volt">Collect</Link>

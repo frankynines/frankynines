@@ -1,0 +1,30 @@
+{
+  "section": "design",
+  "year": "2014",
+  "title": "Yoshirt",
+  "role": "Founder and president, product and interface design",
+  "body": [
+    "Launched November 2014 with NEFF as the first brand on the platform. Pick a shirt, hoodie, tank or socks, drop your photos and graphics on it, buy it. Printed on the fabric before it's sewn, made in the US, at your door in a few days.",
+    "I owned the product and the interface. My cofounders came from Apple and from DC Shoes and RVCA. We raised a $1.1M seed in 2015 from Kleiner Perkins, Pritzker Group, Resolute and MESA.",
+    "Apple featured us at WWDC for Apple Pay. 500k+ downloads. Partnerships with NEFF, Agenda, Known and more. I ran it through 2017."
+  ],
+  "stats": [
+    {
+      "value": "500k+",
+      "label": "downloads"
+    },
+    {
+      "value": "$1.1M",
+      "label": "seed, Kleiner Perkins led"
+    },
+    {
+      "value": "2014 to 17",
+      "label": "my run as founder"
+    }
+  ],
+  "images": [
+    "/work/design/yoshirt-1.jpg",
+    "/work/design/yoshirt-2.jpg",
+    "/work/design/yoshirt-3.jpg"
+  ]
+}

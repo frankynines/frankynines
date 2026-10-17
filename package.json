@@ -8,7 +8,9 @@
     "start": "next start",
     "lint": "next lint",
     "sync:nfts": "node scripts/sync-nfts.mjs",
-    "import:deck": "node scripts/import-deck.mjs"
+    "import:deck": "node scripts/import-deck.mjs",
+    "new:project": "node scripts/new-project.mjs",
+    "publish": "node scripts/publish.mjs"
   },
   "dependencies": {
     "next": "^16.4.0",
